@@ -9,13 +9,9 @@ sources via pip::
 
     $ (default) pip install -e git+git://github.com/ckan/ofs-hero.git#egg=ofs_hero
 
-Install the requirements::
-
-    $ (default) pip install -r ofs-hero/pip-requirements.txt
-
 ## Usage
-Switch to the `ofs-hero` directory and run the paster command pointint to the
-config file::
+Switch to the `ofs-hero` directory and run the paster command with the path to
+the config file::
 
     $ (default) paster regenerate -c /etc/ckan/default/production.ini
 
