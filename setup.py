@@ -22,5 +22,7 @@ Renerate persisted_state.json from a ckan instance.""",
       ],
       entry_points="""
       # -*- Entry points: -*-
+      [paste.paster_command]
+      regenerate = ofshero.commands:Regenerate
       """,
       )

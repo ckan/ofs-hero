@@ -1,9 +1,0 @@
-setup.cfg
-setup.py
-ofs_hero.egg-info/PKG-INFO
-ofs_hero.egg-info/SOURCES.txt
-ofs_hero.egg-info/dependency_links.txt
-ofs_hero.egg-info/entry_points.txt
-ofs_hero.egg-info/not-zip-safe
-ofs_hero.egg-info/top_level.txt
-ofshero/__init__.py
