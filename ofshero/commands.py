@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-import ckanapi
 import urllib
 import json
 from pylons import config
@@ -7,6 +6,7 @@ from pylons import config
 import ckan.model as model
 import ckan.plugins.toolkit as toolkit
 from ckan.lib.cli import CkanCommand
+
 
 class Regenerate(CkanCommand):
     """
